@@ -1,3 +1,7 @@
+:root{
+    --primary-clr:#0d1655;
+    --txt-clr:#fafafa;
+}
 .App {
     font-family: sans-serif;
     text-align: center;
@@ -15,6 +19,12 @@
   .start {
     align-items: flex-start;
   }
+  .around{
+    justify-content: space-around;
+  }
+  .bet{
+    justify-content: space-between;
+  }
   .wrap {
     flex-wrap: wrap;
   }
@@ -25,19 +35,62 @@
   .margin-sm{
     margin: 0.5rem;
   }
+  .margin-l{
+    margin-left: 2rem;
+  }
+  .common-btn{
+    background-color: #38bdf8;
+    color: var(--txt-clr);
+    font-weight: 500;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .page-bg{
+    background-color: rgb(245 245 245);;
+  }
+
   .main-container {
     display: grid;
     grid-template-columns: 1fr 5fr;
   }
   .products-mapped {
-    height: 100vh;
+    
     overflow: scroll;
     justify-content: space-between;
+  }
+
+  #team-input{
+    padding: 0.3rem;
+    margin: 0.5rem;
+    border-radius: 5px;
   }
   
   /* sidebar-container */
   .sidebar-container {
     justify-content: space-between;
     height: 100vh;
+    background-color: var(--primary-clr);
+    color: var(--txt-clr);
+    position: sticky;
+    top: 0;
   }
   
+  /* navbar */
+  .nav-icon-btn{
+    background: none;
+    color: var(--primary-clr);
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .navbar-container{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 99;
+  }
+  .navbar-container p{
+    padding-left: 1rem;
+  }

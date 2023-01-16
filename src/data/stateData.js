@@ -8,6 +8,7 @@ const data = [
     time: "5",
     lessons: 5,
     Purpose: "Sales",
+    status:"LIVE"
   },
   {
     id: uuid(),
@@ -17,6 +18,7 @@ const data = [
     time: "5",
     lessons: 3,
     Purpose: "Sales,Marketing",
+    status:"archieved"
   },
   {
     id: uuid(),
@@ -26,6 +28,7 @@ const data = [
     time: "5",
     lessons: 3,
     Purpose: "Sales",
+    status:"LIVE"
   },
   {
     id: uuid(),
@@ -34,6 +37,7 @@ const data = [
     type: "yurt",
     time: "5",
     lessons: 3,
+    status:"archieved",
     Purpose: "Sales,Marketing",
   },
   {
@@ -44,6 +48,7 @@ const data = [
     time: "5",
     lessons: 4,
     location: "Pune,Maharashatra",
+    status:"Draft"
   },
   {
     id: uuid(),
@@ -53,6 +58,7 @@ const data = [
     time: "5",
     lessons: 2,
     Purpose: "Sales ,Marketing",
+    status:"LIVE"
   },
 
   {
@@ -62,7 +68,7 @@ const data = [
     type: "wooden",
     time: "5",
     lessons: 5,
-    location: "Pune,Maharashatra",
+    status:"archieved"
   },
   {
     id: uuid(),
@@ -72,6 +78,7 @@ const data = [
     time: "5",
     lessons: 3,
     Purpose: "Sales ,Marketing",
+    status:"LIVE"
   },
   {
     id: uuid(),
@@ -81,6 +88,7 @@ const data = [
     time: "5",
     lessons: 2,
     Purpose: "Marketing",
+    status:"LIVE"
   },
 
   {
@@ -91,6 +99,7 @@ const data = [
     time: "5",
     rating: 3,
     Purpose: "Marketing",
+    status:"archieved"
   },
   {
     id: uuid(),
@@ -100,6 +109,7 @@ const data = [
     time: "5",
     lessons: 2,
     Purpose: "Sales,Marketing",
+    status:"LIVE"
   },
   {
     id: uuid(),
@@ -109,16 +119,9 @@ const data = [
     time: "5",
     lessons: 3,
     Purpose: "Sales,Marketing",
+    status:"archieved"
   },
-  {
-    id: uuid(),
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoS99HOd6QeTjZXoQ3ovNjj1wdHYcuHCzVvQ&usqp=CAU",
-    updated: "20 / 10 / 2022",
-    type: "flats",
-    time: "5",
-    lessons: 3,
-    Purpose: "Sales,",
-  },
+
   {
     id: uuid(),
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvwGmgvvbe2NZEmVT2PSfed6TjarpfeRArA&usqp=CAU",
@@ -127,6 +130,7 @@ const data = [
     time: "1",
     rating: 5,
     Purpose: "Sales,Marketing",
+    status:"Draft"
   },
   {
     id: uuid(),
@@ -136,6 +140,7 @@ const data = [
     time: "2",
     lessons: 4,
     Purpose: ",Marketing",
+    status:"LIVE"
   },
 
   {
@@ -146,6 +151,7 @@ const data = [
     time: "3",
     lessons: 4,
     Purpose: "Sales,Marketing",
+    status:"archieved"
   },
   {
     id: uuid(),
@@ -155,6 +161,7 @@ const data = [
     time: "5",
     lessons: 2,
     Purpose: ",Marketing",
+    status:"LIVE"
   },
 
   {
@@ -165,6 +172,7 @@ const data = [
     time: "4",
     lessons: 4,
     Purpose: "Sales,Marketing",
+    status:"Draft"
   },
   {
     id: uuid(),
@@ -174,6 +182,7 @@ const data = [
     time: "5",
     lessons: 5,
     Purpose: "Sales,",
+    status:"LIVE"
   },
   {
     id: uuid(),
@@ -183,6 +192,7 @@ const data = [
     time: "8",
     rating: 2,
     Purpose: "Sales,Marketing",
+    status:"archieved"
   },
   {
     id: uuid(),
@@ -192,26 +202,9 @@ const data = [
     time: "5",
     lessons: 3,
     Purpose: "Sales,",
+    status:"Draft"
   },
-  {
-    id: uuid(),
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyVTlEmwk0nLL4gt9f5ymou1Wdvc2rNwWVjg&usqp=CAU",
-    updated: "20 / 10 / 2022",
-    type: "flats",
-    time: "6",
-    lessons: 5,
-    Purpose: "Sales,Marketing",
-  },
-
-  {
-    id: uuid(),
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmeiusSb512t3XSPwL9fA9M4sLZ94k-6tUJA&usqp=CAU",
-    updated: "05 / 11 / 2020",
-    type: "wooden",
-    time: "15",
-    lessons: 2,
-    Purpose: "Sales,",
-  },
+ 
 ];
 
 export { data };

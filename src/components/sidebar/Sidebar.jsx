@@ -9,7 +9,7 @@ import { FaUserCircle } from "react-icons/fa";
 export const Sidebar = () => {
   return (
     <div className="common-flex-col sidebar-container start">
-      <div className="common-flex-col start">
+      <div className="common-flex-col start margin-l">
         <div className="common-flex-row center">
           {" "}
           <p>
@@ -49,7 +49,7 @@ export const Sidebar = () => {
         </div>
       </div>
 
-      <div className="common-flex-col start">
+      <div className="common-flex-col start margin-l">
         <div className="common-flex-row center">
           {" "}
           <p>

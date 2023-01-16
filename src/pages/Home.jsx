@@ -1,5 +1,10 @@
+import { Sidebar } from "../components/sidebar/Sidebar"
+import "../styles.css"
 export const Home =()=>{
     return(
-        <div>Home</div>
+        <div>Home
+            <Sidebar/>
+            
+        </div>
     )
 }

@@ -1,0 +1,40 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .common-flex-row {
+    display: flex;
+  }
+  .common-flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+  .center {
+    align-items: center;
+  }
+  .start {
+    align-items: flex-start;
+  }
+  .wrap {
+    flex-wrap: wrap;
+  }
+  .fs-sm {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+  }
+  .products-mapped {
+    height: 100vh;
+    overflow: scroll;
+    justify-content: space-between;
+  }
+  
+  /* sidebar-container */
+  .sidebar-container {
+    justify-content: space-between;
+    height: 100vh;
+  }
+  

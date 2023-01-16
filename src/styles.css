@@ -22,6 +22,9 @@
     font-size: 0.8rem;
     font-weight: 500;
   }
+  .margin-sm{
+    margin: 0.5rem;
+  }
   .main-container {
     display: grid;
     grid-template-columns: 1fr 5fr;
